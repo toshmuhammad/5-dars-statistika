@@ -17,7 +17,6 @@ export async function getTodos(filter) {
   }
 
   const req = await fetch(url.href);
-
   if (req.status === 200) {
     const result = await req.json();
     return result.data;

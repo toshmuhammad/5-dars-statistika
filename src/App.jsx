@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Todos from "./components/Todos";
+import StatisticsPage from "./pages/StatisticsPage";
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       <Header />
       <main>
         <Todos />
+        <StatisticsPage />
       </main>
     </>
   );
